@@ -1,0 +1,84 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(76, 145, 76);
+    color: white;
+}
+
+img {
+    padding: 10px;
+    border: solid 3px blue;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 150px;
+}
+
+th {
+    text-align: center;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table, th, td {
+    background-color: rgb(134, 199, 134);
+    color: black;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+.name-column {
+    text-align: center; 
+    border-right: solid 1px black; 
+    font-weight: bold;
+}
+
+.center {
+    padding: 10px 0px;
+    text-align: left;
+}
+
+.list {
+    padding-left: 10px;
+    text-align: center;
+}
+
+ol {
+    text-align: left;
+}
+
+ol li {
+    margin-bottom: 10px; 
+}
+
+caption {
+    color: white;
+    caption-side: bottom; 
+    text-align: center; 
+}
+
+.container {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: blue; /* Normal state */
+}
+
+a:visited {
+    color: purple; /* Visited state */
+}
+
+a:hover {
+    color: white; /* Hover state */
+}
+
+a:active {
+    color: red; /* Active state */
+}
